@@ -1,4 +1,9 @@
-# Using interfaces in Python using Abstract Based Class
+# Interfaces in Python using Abstract Based Class
+# FYI: 1. An abstract method is a method that is declared, but contains no implementation.
+#          2. Abstract classes may not be instantiated, and require subclasses to provide
+#            implementations for the abstract methods.
+#          3. Properties are generally used to provide access methods to change an attribute
+#            of a class. By adding a @property decorator, a method can be accessed like a variable
 
 import abc
 
