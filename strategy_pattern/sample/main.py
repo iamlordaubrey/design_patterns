@@ -1,4 +1,4 @@
-from strategy import ShippingCost, FedExStrategy, PostalStrategy, UPSStrategy, Order
+from .strategy import ShippingCost, FedExStrategy, PostalStrategy, UPSStrategy, Order
 
 order = Order()
 strategy = FedExStrategy()

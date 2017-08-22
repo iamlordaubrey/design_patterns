@@ -1,4 +1,4 @@
-from strategy_abc import AbsStrategy
+from .strategy_abc import AbsStrategy
 
 
 class ShippingCost(object):
